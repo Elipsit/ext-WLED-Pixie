@@ -28,12 +28,6 @@ This project combines my love for LEDs with my commitment to sustainability, off
 
 ---
 
-## Features
-- List your project's key features
-- Highlight any unique functionality
-
----
-
 ## Schematic
 The latest schematic can be found here
 [Schematic](/WLED_Pixie_Rev_A/Project%20Outputs%20for%20WLED_Pixie_Rev_A/PDF/WLED_Pixie_Rev_A-2024-10-12.PDF)
