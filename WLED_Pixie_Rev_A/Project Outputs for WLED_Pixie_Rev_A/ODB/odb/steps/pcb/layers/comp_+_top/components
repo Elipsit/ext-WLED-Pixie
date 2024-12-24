@@ -1,0 +1,1510 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 1 0.41 1.792559 270 N C12 22uF ;0=1,1=0.0394
+PRP Applications 'General Purpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP ClassName ''
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R61A226ME15D'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0603'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Pricing_1 '4000=0.00414, 8000=0.00378, 12000=0.0036, 28000=0.00342, 100000=0.00248 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ L x 0.031_ W (1.60mm x 0.80mm)'
+PRP Stock_1 '2360000'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C84419'
+PRP Temperature_Coefficient 'XR5'
+PRP Thickness_(Max) '0.034_ (0.87mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 0.4099999 1.765 180 N 23 23 1
+TOP 1 0.4099999 1.8201181 180 N 34 80 2
+#
+# CMP 1
+CMP 1 0.295 1.792559 270 N C8 22uF ;0=1,1=0.0394
+PRP Applications 'General Purpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP ClassName ''
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R61A226ME15D'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0603'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Pricing_1 '4000=0.00414, 8000=0.00378, 12000=0.0036, 28000=0.00342, 100000=0.00248 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ L x 0.031_ W (1.60mm x 0.80mm)'
+PRP Stock_1 '2360000'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C84419'
+PRP Temperature_Coefficient 'XR5'
+PRP Thickness_(Max) '0.034_ (0.87mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 0.2949999 1.765 180 N 23 22 1
+TOP 1 0.2949999 1.8201181 180 N 34 79 2
+#
+# CMP 2
+CMP 4 0.68 1.2072835 90 N R9 100K_0402 ;0=1,1=0.0157
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Category 'Resistors'
+PRP ClassName ''
+PRP ComponentLink1Description 'http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1003X+7+WW'
+PRP ComponentLink1URL 'http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1003X+7+WW'
+PRP ComponentLink2Description 'https://datasheet.ciiva.com/2453/pyu-r-int-thick-7-2453361.pdf'
+PRP ComponentLink2URL 'https://datasheet.ciiva.com/2453/pyu-r-int-thick-7-2453361.pdf'
+PRP ComponentLink3Description 'https://datasheet.ciiva.com/2453/pyu-r-int-thick-7-2453362.pdf'
+PRP ComponentLink3URL 'https://datasheet.ciiva.com/2453/pyu-r-int-thick-7-2453362.pdf'
+PRP ComponentLink4Description 'https://datasheet.ciiva.com/2453/pyu-r-int-thick-7-2453363.pdf'
+PRP ComponentLink4URL 'https://datasheet.ciiva.com/2453/pyu-r-int-thick-7-2453363.pdf'
+PRP ComponentLink5Description 'https://datasheet.ciiva.com/22747/1018594-22747509.pdf'
+PRP ComponentLink5URL 'https://datasheet.ciiva.com/22747/1018594-22747509.pdf'
+PRP ComponentLink6Description 'https://datasheet.ciiva.com/15189/getdatasheetpartid-323696-15189334.pdf'
+PRP ComponentLink6URL 'https://datasheet.ciiva.com/15189/getdatasheetpartid-323696-15189334.pdf'
+PRP ComponentLink7Description 'https://datasheet.ciiva.com/16740/pyu-rc0402-51-rohs-l-6-r-16740567.pdf'
+PRP ComponentLink7URL 'https://datasheet.ciiva.com/16740/pyu-rc0402-51-rohs-l-6-r-16740567.pdf'
+PRP ComponentLink8Description 'https://datasheet.ciiva.com/12667/pyu-rc0402-51-rohs-l-6-r-12667930.pdf'
+PRP ComponentLink8URL 'https://datasheet.ciiva.com/12667/pyu-rc0402-51-rohs-l-6-r-12667930.pdf'
+PRP ComponentLink9Description 'https://datasheet.ciiva.com/11819/0900766b80c66297-11819452.pdf'
+PRP ComponentLink9URL 'https://datasheet.ciiva.com/11819/0900766b80c66297-11819452.pdf'
+PRP Composition 'Thick Film'
+PRP Depth '0.5mm'
+PRP Height '0.016inch'
+PRP Lead_Free 'Lead Free'
+PRP Length '0.039inch'
+PRP Manufacturer 'Yageo'
+PRP Manufacturer_Part_Number 'RC0402FR-07100KL'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '63mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Terminations '2'
+PRP Package_/_Case '0402'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Power_(Watts) ''
+PRP Power_Rating '63mW'
+PRP Pricing_1 '1=0.1, 10=0.014, 100=0.0056, 1000=0.0025, 2500=0.0022, 5000=0.0018 (USD)'
+PRP REACH_SVHC 'No SVHC'
+PRP Resistance '100K'
+PRP Resistance_(Ohms) '100K'
+PRP Stock_1 '18204796'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-100KLRCT-ND'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '±1%'
+PRP Voltage_Rating '50V'
+PRP Width '0.02inch'
+TOP 0 0.68 1.225 0 N 34 22 1
+TOP 1 0.68 1.1895669 0 N 29 2 2
+#
+# CMP 3
+CMP 4 0.64 1.2072835 270 N R7 1K ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP Composition 'Thick Film'
+PRP Failure_Rate '-'
+PRP Features 'Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C11702'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF1001TCE'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP Pricing_1 '1=0.1, 10=0.021, 100=0.0086, 1000=0.00385, 2500=0.00334, 5000=0.00276 (USD)'
+PRP Resistance_(Ohms) '1K'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_Device_Package '0402'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+TOP 0 0.64 1.189567 180 N 29 3 1
+TOP 1 0.64 1.2250001 180 N 3 1 2
+#
+# CMP 4
+CMP 4 0.595 1.2072835 270 N R5 1K ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP Composition 'Thick Film'
+PRP Failure_Rate '-'
+PRP Features 'Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C11702'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF1001TCE'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP Pricing_1 '1=0.1, 10=0.021, 100=0.0086, 1000=0.00385, 2500=0.00334, 5000=0.00276 (USD)'
+PRP Resistance_(Ohms) '1K'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_Device_Package '0402'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+TOP 0 0.595 1.189567 180 N 30 2 1
+TOP 1 0.595 1.2250001 180 N 4 1 2
+#
+# CMP 5
+CMP 15 0.185 1.255 180 N LED6 WS2812C-2020 ;0=1,1=0.0000
+TOP 0 0.1481653 1.2725906 180 N 1 1 1
+TOP 1 0.1481654 1.2292833 180 N 34 78 2
+TOP 2 0.2202127 1.2292834 180 N 2 1 3
+TOP 3 0.2202126 1.2725905 180 N 23 21 4
+#
+# CMP 6
+CMP 1 0.475 1.792559 270 N C19 22uF ;0=1,1=0.0394
+PRP Applications 'General Purpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP ClassName ''
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R61A226ME15D'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0603'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Pricing_1 '4000=0.00414, 8000=0.00378, 12000=0.0036, 28000=0.00342, 100000=0.00248 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ L x 0.031_ W (1.60mm x 0.80mm)'
+PRP Stock_1 '2360000'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C84419'
+PRP Temperature_Coefficient 'XR5'
+PRP Thickness_(Max) '0.034_ (0.87mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 0.4749999 1.765 180 N 23 19 1
+TOP 1 0.4749999 1.8201181 180 N 34 44 2
+#
+# CMP 7
+CMP 0 0.15 1.775748 270 N C23 0.1uF ;0=1,1=0.0276
+PRP Applications 'SMPS Filtering'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP ComponentLink1URL 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP Failure_Rate '-'
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'American Technical Ceramics'
+PRP Manufacturer_Part_Number '530L104KT16T'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=1.23, 10=0.975, 100=0.731 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.040_ L x 0.020_ W (1.02mm x 0.51mm)'
+PRP Stock_1 '201522'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '1284-1591-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.024_ (0.61mm)'
+PRP Tolerance '±10%'
+PRP Voltage_-_Rated '16V'
+TOP 0 0.15 1.76 180 N 23 15 1
+TOP 1 0.15 1.7914961 180 N 34 32 2
+#
+# CMP 8
+CMP 0 0.35 1.785 270 N C20 0.1uF ;0=1,1=0.0276
+PRP Applications 'SMPS Filtering'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP ComponentLink1URL 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP Failure_Rate '-'
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'American Technical Ceramics'
+PRP Manufacturer_Part_Number '530L104KT16T'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=1.23, 10=0.975, 100=0.731 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.040_ L x 0.020_ W (1.02mm x 0.51mm)'
+PRP Stock_1 '201522'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '1284-1591-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.024_ (0.61mm)'
+PRP Tolerance '±10%'
+PRP Voltage_-_Rated '16V'
+TOP 0 0.35 1.769252 180 N 23 14 1
+TOP 1 0.35 1.8007481 180 N 34 31 2
+#
+# CMP 9
+CMP 0 0.3507481 0.6 180 N C17 0.1uF ;0=1,1=0.0276
+PRP Applications 'SMPS Filtering'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP ComponentLink1URL 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP Failure_Rate '-'
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'American Technical Ceramics'
+PRP Manufacturer_Part_Number '530L104KT16T'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=1.23, 10=0.975, 100=0.731 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.040_ L x 0.020_ W (1.02mm x 0.51mm)'
+PRP Stock_1 '201522'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '1284-1591-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.024_ (0.61mm)'
+PRP Tolerance '±10%'
+PRP Voltage_-_Rated '16V'
+TOP 0 0.3664961 0.6 90 N 37 8 1
+TOP 1 0.335 0.6 90 N 34 26 2
+#
+# CMP 10
+CMP 0 0.36 1.23 180 N C4 0.1uF ;0=1,1=0.0276
+PRP Applications 'SMPS Filtering'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP ComponentLink1URL 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP Failure_Rate '-'
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'American Technical Ceramics'
+PRP Manufacturer_Part_Number '530L104KT16T'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=1.23, 10=0.975, 100=0.731 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.040_ L x 0.020_ W (1.02mm x 0.51mm)'
+PRP Stock_1 '201522'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '1284-1591-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.024_ (0.61mm)'
+PRP Tolerance '±10%'
+PRP Voltage_-_Rated '16V'
+TOP 0 0.375748 1.23 90 N 37 6 1
+TOP 1 0.3442519 1.23 90 N 34 24 2
+#
+# CMP 11
+CMP 9 0.285 1.608 0 N U5 SN74LV1T34DBVR ;0=1,1=0.0000
+PRP Add_into_BOM 'yes'
+PRP Convert_to_PCB 'yes'
+PRP Datasheet 'https://www.ti.com/cn/lit/gpn/sn74lv1t34'
+PRP Device 'SN74LV1T34DBVR'
+PRP Input_Type '-'
+PRP JLCPCB_Part_Class 'Extended Part'
+PRP LCSC_Part_Name 'SN74LV1T34DBVR'
+PRP Logic_Family '74LV'
+PRP Manufacturer 'TI(????)'
+PRP Manufacturer_Part 'SN74LV1T34DBVR'
+PRP Number_of_Bits_per_Element '1'
+PRP Number_of_Elements '1'
+PRP Operating_Temperature '-40?~+125?'
+PRP Output_Type '??'
+PRP Sink_Current '8mA'
+PRP Source_Current '8mA'
+PRP Supplier 'LCSC'
+PRP Supplier_Footprint 'SOT-23-5'
+PRP Supplier_Part 'C100024'
+PRP Supply_Voltage '1.6V~5.5V'
+PRP Symbol 'SN74LV1T34DBVR'
+TOP 0 0.285 1.608 0 N 0 3 1
+TOP 1 0.322 1.608 0 N 9 0 2
+TOP 2 0.36 1.608 0 N 34 29 3
+TOP 3 0.36 1.71 0 N 8 1 4
+TOP 4 0.285 1.71 0 N 23 12 5
+#
+# CMP 12
+CMP 4 0.28 0.58 270 N R10 10K ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP Composition 'Thick Film'
+PRP Failure_Rate '-'
+PRP Features 'Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C25744'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF1002TCE'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP Pricing_1 '1=0.1, 10=0.021, 100=0.0086, 1000=0.00385, 2500=0.00334, 5000=0.00276 (USD)'
+PRP Resistance_(Ohms) '10K'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_Device_Package '0402'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+TOP 0 0.28 0.5622835 180 N 37 14 1
+TOP 1 0.28 0.5977166 180 N 11 1 2
+#
+# CMP 13
+CMP 4 0.675 0.8877166 90 N R6 10K ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP Composition 'Thick Film'
+PRP Failure_Rate '-'
+PRP Features 'Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C25744'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF1002TCE'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP Pricing_1 '1=0.1, 10=0.021, 100=0.0086, 1000=0.00385, 2500=0.00334, 5000=0.00276 (USD)'
+PRP Resistance_(Ohms) '10K'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_Device_Package '0402'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+TOP 0 0.675 0.9054331 0 N 37 12 1
+TOP 1 0.675 0.87 0 N 19 3 2
+#
+# CMP 14
+CMP 4 0.65 0.48 0 N R2 10K ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP Composition 'Thick Film'
+PRP Failure_Rate '-'
+PRP Features 'Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C25744'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF1002TCE'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP Pricing_1 '1=0.1, 10=0.021, 100=0.0086, 1000=0.00385, 2500=0.00334, 5000=0.00276 (USD)'
+PRP Resistance_(Ohms) '10K'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_Device_Package '0402'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+TOP 0 0.6322835 0.48 270 N 37 11 1
+TOP 1 0.6677166 0.48 270 N 35 4 2
+#
+# CMP 15
+CMP 4 0.285 1.28 90 N R8 10K ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP Composition 'Thick Film'
+PRP Failure_Rate '-'
+PRP Features 'Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C25744'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF1002TCE'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP Pricing_1 '1=0.1, 10=0.021, 100=0.0086, 1000=0.00385, 2500=0.00334, 5000=0.00276 (USD)'
+PRP Resistance_(Ohms) '10K'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_Device_Package '0402'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+TOP 0 0.285 1.2977165 0 N 37 13 1
+TOP 1 0.285 1.2622834 0 N 12 1 2
+#
+# CMP 16
+CMP 1 0.2300001 1.792559 270 N C18 22uF ;0=1,1=0.0394
+PRP Applications 'General Purpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP ClassName ''
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R61A226ME15D'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0603'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Pricing_1 '4000=0.00414, 8000=0.00378, 12000=0.0036, 28000=0.00342, 100000=0.00248 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ L x 0.031_ W (1.60mm x 0.80mm)'
+PRP Stock_1 '2360000'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C84419'
+PRP Temperature_Coefficient 'XR5'
+PRP Thickness_(Max) '0.034_ (0.87mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 0.23 1.765 180 N 23 24 1
+TOP 1 0.23 1.8201181 180 N 34 81 2
+#
+# CMP 17
+CMP 14 0.352755 0.902762 90 N U1 Espressif_Systems' ;0=1,1=0.0000
+PRP Add_into_BOM 'yes'
+PRP Convert_to_PCB 'yes'
+PRP Device 'ESP32-C3-MINI-1U-N4'
+PRP JLCPCB_Part_# 'C2911374'
+PRP Manufacturer 'Espressif Systems'
+PRP Package 'SMD,12.5x13.2mm'
+PRP Symbol 'ESP32-C3-MINI-1U-N4'
+TOP 0 0.51023 1.13504 90 N 34 47 1
+TOP 1 0.47874 1.13504 90 N 34 48 2
+TOP 2 0.44724 1.13504 90 N 37 10 3
+TOP 3 0.41575 1.13504 90 N 0 5 4
+TOP 4 0.38425 1.13504 90 N 12 0 5
+TOP 5 0.35275 1.13504 90 N 19 2 6
+TOP 6 0.32126 1.13504 90 N 0 6 7
+TOP 7 0.28976 1.13504 90 N 35 3 8
+TOP 8 0.25827 1.13504 90 N 0 7 9
+TOP 9 0.22677 1.13504 90 N 0 8 10
+TOP 10 0.19527 1.13504 90 N 34 49 11
+TOP 11 0.1559 1.09174 90 N 7 1 12
+TOP 12 0.1559 1.06024 90 N 6 1 13
+TOP 13 0.1559 1.02874 90 N 34 50 14
+TOP 14 0.1559 0.99725 90 N 0 9 15
+TOP 15 0.1559 0.96575 90 N 14 0 16
+TOP 16 0.1559 0.93426 90 N 0 10 17
+TOP 17 0.1559 0.90276 90 N 13 1 18
+TOP 18 0.1559 0.87126 90 N 9 1 19
+TOP 19 0.1559 0.83977 90 N 2 0 20
+TOP 20 0.1559 0.80827 90 N 5 1 21
+TOP 21 0.1559 0.77677 90 N 11 0 22
+TOP 22 0.1559 0.74528 90 N 10 2 23
+TOP 23 0.1559 0.71378 90 N 0 11 24
+TOP 24 0.19527 0.67048 90 N 0 12 25
+TOP 25 0.22677 0.67048 90 N 17 1 26
+TOP 26 0.25827 0.67048 90 N 16 2 27
+TOP 27 0.28976 0.67048 90 N 0 13 28
+TOP 28 0.32126 0.67048 90 N 0 14 29
+TOP 29 0.35275 0.67048 90 N 28 1 30
+TOP 30 0.38425 0.67048 90 N 27 1 31
+TOP 31 0.41575 0.67048 90 N 0 15 32
+TOP 32 0.44724 0.67048 90 N 0 16 33
+TOP 33 0.47874 0.67048 90 N 0 17 34
+TOP 34 0.51023 0.67048 90 N 0 18 35
+TOP 35 0.54961 0.71378 90 N 34 51 36
+TOP 36 0.54961 0.74528 90 N 34 52 37
+TOP 37 0.54961 0.77677 90 N 34 53 38
+TOP 38 0.54961 0.80827 90 N 34 54 39
+TOP 39 0.54961 0.83977 90 N 34 55 40
+TOP 40 0.54961 0.87126 90 N 34 56 41
+TOP 41 0.54961 0.90276 90 N 34 57 42
+TOP 42 0.54961 0.93426 90 N 34 58 43
+TOP 43 0.54961 0.96575 90 N 34 59 44
+TOP 44 0.54961 0.99725 90 N 34 60 45
+TOP 45 0.54961 1.02874 90 N 34 61 46
+TOP 46 0.54961 1.06024 90 N 34 62 47
+TOP 47 0.54961 1.09174 90 N 34 63 48
+TOP 48 0.35276 0.90276 90 N 34 68 49
+TOP 49 0.547637 0.66851 90 N 34 64 50
+TOP 50 0.157876 0.66851 90 N 34 65 51
+TOP 51 0.157876 1.137014 90 N 34 66 52
+TOP 52 0.547637 1.137012 90 N 34 67 53
+TOP 53 0.43051 0.98052 90 N 34 69 54
+TOP 54 0.43051 0.90276 90 N 34 70 55
+TOP 55 0.43051 0.825 90 N 34 71 56
+TOP 56 0.35276 0.825 90 N 34 72 57
+TOP 57 0.275 0.825 90 N 34 73 58
+TOP 58 0.275 0.90276 90 N 34 74 59
+TOP 59 0.275 0.98051 90 N 34 75 60
+TOP 60 0.35276 0.98051 90 N 34 76 61
+#
+# CMP 18
+CMP 12 0.7 1.045 270 N SW4 Tact_Switch ;0=1,1=0.0591
+PRP LCSC_Part_# 'C720477'
+PRP Manufacturer 'XUNPU'
+TOP 0 0.7 0.9633071 180 N 18 1 1
+TOP 1 0.7 1.1266929 180 N 34 33 2
+#
+# CMP 19
+CMP 10 0.5 0.535 180 N U4 600mA_Fixed_3.3V ;0=1,1=0.0512
+PRP MFR.Part_# 'AP2112K-3.3TRG1'
+PRP Package 'SOT-25-5'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C51118'
+TOP 0 0.5541339 0.4975984 90 N 23 9 1
+TOP 1 0.5541339 0.535 90 N 34 19 2
+TOP 2 0.5541339 0.5724015 90 N 23 8 3
+TOP 3 0.4458662 0.5724015 90 N 0 2 4
+TOP 4 0.4458662 0.4975984 90 N 37 4 5
+#
+# CMP 20
+CMP 12 0.7 0.73 90 N SW2 Tact_Switch ;0=1,1=0.0591
+PRP LCSC_Part_# 'C720477'
+PRP Manufacturer 'XUNPU'
+TOP 0 0.7 0.8116929 0 N 19 1 1
+TOP 1 0.7 0.6483071 0 N 34 34 2
+#
+# CMP 21
+CMP 7 0.41 1.415 180 N D2 PTVS5V0S1UR ;0=1,1=0.0531
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401151102_FUXINSEMI-PTVS24VS1UR_C5380693.pdf'
+PRP JLCPCB_Part_# ''
+PRP Manufacturer 'FUXINSEMI'
+PRP Max_Clamp_Voltage '9.2V'
+PRP Max_Current '43A'
+PRP MFR.Part_# 'PTVS5V0S1UR'
+PRP Supplier_1 'Future Electronics'
+PRP Supplier_Part_Number_1 '8850067'
+PRP Working_Voltage '5V'
+TOP 0 0.4690551 1.415 180 N 34 42 1
+TOP 1 0.3509449 1.415 180 N 23 18 2
+#
+# CMP 22
+CMP 7 0.73 0.51 90 N D1 PTVS5V0S1UR ;0=1,1=0.0531
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401151102_FUXINSEMI-PTVS24VS1UR_C5380693.pdf'
+PRP JLCPCB_Part_# ''
+PRP Manufacturer 'FUXINSEMI'
+PRP Max_Clamp_Voltage '9.2V'
+PRP Max_Current '43A'
+PRP MFR.Part_# 'PTVS5V0S1UR'
+PRP Supplier_1 'Future Electronics'
+PRP Supplier_Part_Number_1 '8850067'
+PRP Working_Voltage '5V'
+TOP 0 0.73 0.5690551 90 N 34 21 1
+TOP 1 0.73 0.4509449 90 N 36 6 2
+#
+# CMP 23
+CMP 0 0.35 1.345 270 N C3 0.1uF ;0=1,1=0.0276
+PRP Applications 'SMPS Filtering'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP ComponentLink1URL 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP Failure_Rate '-'
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'American Technical Ceramics'
+PRP Manufacturer_Part_Number '530L104KT16T'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=1.23, 10=0.975, 100=0.731 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.040_ L x 0.020_ W (1.02mm x 0.51mm)'
+PRP Stock_1 '201522'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '1284-1591-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.024_ (0.61mm)'
+PRP Tolerance '±10%'
+PRP Voltage_-_Rated '16V'
+TOP 0 0.35 1.329252 180 N 36 9 1
+TOP 1 0.35 1.3607481 180 N 34 39 2
+#
+# CMP 24
+CMP 1 0.475 1.3283465 270 N C2 22uF ;0=1,1=0.0394
+PRP Applications 'General Purpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP ClassName ''
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R61A226ME15D'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0603'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Pricing_1 '4000=0.00414, 8000=0.00378, 12000=0.0036, 28000=0.00342, 100000=0.00248 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ L x 0.031_ W (1.60mm x 0.80mm)'
+PRP Stock_1 '2360000'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C84419'
+PRP Temperature_Coefficient 'XR5'
+PRP Thickness_(Max) '0.034_ (0.87mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 0.4749999 1.3007875 180 N 36 7 1
+TOP 1 0.4749999 1.3559056 180 N 34 37 2
+#
+# CMP 25
+CMP 11 0.225 0.58 180 N TP4 USB_P ;0=1,1=0.0000
+TOP 0 0.225 0.58 180 N 16 1 1
+#
+# CMP 26
+CMP 11 0.18 0.58 180 N TP3 USB_N ;0=1,1=0.0000
+TOP 0 0.18 0.58 180 N 17 0 1
+#
+# CMP 27
+CMP 4 0.14 0.575 90 N R47 1K ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP Composition 'Thick Film'
+PRP Failure_Rate '-'
+PRP Features 'Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C11702'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF1001TCE'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP Pricing_1 '1=0.1, 10=0.021, 100=0.0086, 1000=0.00385, 2500=0.00334, 5000=0.00276 (USD)'
+PRP Resistance_(Ohms) '1K'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_Device_Package '0402'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+TOP 0 0.14 0.5927165 0 N 14 1 1
+TOP 1 0.14 0.5572834 0 N 15 1 2
+#
+# CMP 28
+CMP 4 0.185 0.51 90 N R39 0.0 ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP ClassName ''
+PRP Composition 'Thick Film'
+PRP Features 'Automotive AEC-Q200'
+PRP Height '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C17168'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF0000TCE'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402'
+PRP Packaging 'Cut Tape (CT)'
+PRP Power_(Watts) '0.1W, 1/10W'
+PRP Pricing_1 '1=0.1, 50=0.0138, 100=0.0105, 250=0.0078, 500=0.00576, 1000=0.00384, 5000=0.0027 (USD)'
+PRP Resistance_(Ohms) '0.0'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_Device_Package '0402'
+PRP Temperature_Coefficient '-'
+PRP Tolerance 'Jumper'
+TOP 0 0.185 0.5277165 0 N 17 2 1
+TOP 1 0.185 0.4922834 0 N 26 2 2
+#
+# CMP 29
+CMP 4 0.215 0.51 90 N R13 0.0 ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP ClassName ''
+PRP Composition 'Thick Film'
+PRP Features 'Automotive AEC-Q200'
+PRP Height '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C17168'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF0000TCE'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402'
+PRP Packaging 'Cut Tape (CT)'
+PRP Power_(Watts) '0.1W, 1/10W'
+PRP Pricing_1 '1=0.1, 50=0.0138, 100=0.0105, 250=0.0078, 500=0.00576, 1000=0.00384, 5000=0.0027 (USD)'
+PRP Resistance_(Ohms) '0.0'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_Device_Package '0402'
+PRP Temperature_Coefficient '-'
+PRP Tolerance 'Jumper'
+TOP 0 0.215 0.5277165 0 N 16 0 1
+TOP 1 0.215 0.4922834 0 N 25 2 2
+#
+# CMP 30
+CMP 4 0.265 0.495 180 N R4 5.1k ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP Composition 'Thick Film'
+PRP Failure_Rate '-'
+PRP Features 'Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C25905'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF5101TCE'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP Pricing_1 '1=0.1, 10=0.021, 100=0.0086, 1000=0.00385, 2500=0.00334, 5000=0.00276 (USD)'
+PRP Resistance_(Ohms) '5.1K'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Device_Package '0402'
+PRP Supplier_Part_Number_1 'C25905'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+TOP 0 0.2827165 0.495 90 N 32 1 1
+TOP 1 0.2472834 0.495 90 N 34 84 2
+#
+# CMP 31
+CMP 4 0.735 0.89 90 N R3 10K ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP Composition 'Thick Film'
+PRP Failure_Rate '-'
+PRP Features 'Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C25744'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF1002TCE'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP Pricing_1 '1=0.1, 10=0.021, 100=0.0086, 1000=0.00385, 2500=0.00334, 5000=0.00276 (USD)'
+PRP Resistance_(Ohms) '10K'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_Device_Package '0402'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+TOP 0 0.735 0.9077165 0 N 21 1 1
+TOP 1 0.735 0.8722834 0 N 18 2 2
+#
+# CMP 32
+CMP 4 0.165 0.425 180 N R1 5.1k ;0=1,1=0.0157
+PRP Category 'Resistors'
+PRP Composition 'Thick Film'
+PRP Failure_Rate '-'
+PRP Features 'Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP JLCPCB_Part_# 'C25905'
+PRP Manufacturer 'UNI-ROYAL(Uniroyal Elec)'
+PRP Manufacturer_Part_Number '0402WGF5101TCE'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP Pricing_1 '1=0.1, 10=0.021, 100=0.0086, 1000=0.00385, 2500=0.00334, 5000=0.00276 (USD)'
+PRP Resistance_(Ohms) '5.1K'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Device_Package '0402'
+PRP Supplier_Part_Number_1 'C25905'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+TOP 0 0.1827165 0.425 90 N 33 1 1
+TOP 1 0.1472834 0.425 90 N 34 83 2
+#
+# CMP 33
+CMP 3 0.14 0.47 270 N LED1 Blue ;0=1,1=0.0000
+PRP Color 'Blue'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403110921_XINGLIGHT-XL-1005UBC_C22355736.pdf'
+PRP Current '20mA'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C22355736'
+PRP Voltage '2.7V to 3.3V'
+TOP 0 0.14 0.51238 270 N 15 0 1
+TOP 1 0.14 0.47 270 N 34 20 2
+#
+# CMP 34
+CMP 1 0.4 1.5 90 N C7 22uF ;0=1,1=0.0394
+PRP Applications 'General Purpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP ClassName ''
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R61A226ME15D'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0603'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Pricing_1 '4000=0.00414, 8000=0.00378, 12000=0.0036, 28000=0.00342, 100000=0.00248 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ L x 0.031_ W (1.60mm x 0.80mm)'
+PRP Stock_1 '2360000'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C84419'
+PRP Temperature_Coefficient 'XR5'
+PRP Thickness_(Max) '0.034_ (0.87mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 0.4000001 1.527559 0 N 23 17 1
+TOP 1 0.4000001 1.4724409 0 N 34 41 2
+#
+# CMP 35
+CMP 1 0.465 1.5 90 N C6 22uF ;0=1,1=0.0394
+PRP Applications 'General Purpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP ClassName ''
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R61A226ME15D'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0603'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Pricing_1 '4000=0.00414, 8000=0.00378, 12000=0.0036, 28000=0.00342, 100000=0.00248 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ L x 0.031_ W (1.60mm x 0.80mm)'
+PRP Stock_1 '2360000'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C84419'
+PRP Temperature_Coefficient 'XR5'
+PRP Thickness_(Max) '0.034_ (0.87mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 0.4650001 1.527559 0 N 23 20 1
+TOP 1 0.4650001 1.4724409 0 N 34 77 2
+#
+# CMP 36
+CMP 1 0.465 1.23 0 N C5 22uF ;0=1,1=0.0394
+PRP Applications 'General Purpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP ClassName ''
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R61A226ME15D'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0603'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Pricing_1 '4000=0.00414, 8000=0.00378, 12000=0.0036, 28000=0.00342, 100000=0.00248 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ L x 0.031_ W (1.60mm x 0.80mm)'
+PRP Stock_1 '2360000'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C84419'
+PRP Temperature_Coefficient 'XR5'
+PRP Thickness_(Max) '0.034_ (0.87mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 0.437441 1.2300001 270 N 37 5 1
+TOP 1 0.4925591 1.2300001 270 N 34 23 2
+#
+# CMP 37
+CMP 0 0.65 0.44 180 N C1 1uF ;0=1,1=0.0276
+PRP Applications 'General Purpose'
+PRP Capacitance '1uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_en.pdf'
+PRP ComponentLink1URL 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_en.pdf'
+PRP ComponentLink2Description 'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink2URL 'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink3Description 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink3URL 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink4Description 'http://www.mouser.com/ds/2/400/lcc_commercial_lowprofile_en-520027.pdf'
+PRP ComponentLink4URL 'http://www.mouser.com/ds/2/400/lcc_commercial_lowprofile_en-520027.pdf'
+PRP Composition 'Ceramic'
+PRP Dielectric 'X5R'
+PRP Failure_Rate '-'
+PRP Features 'Low Profile'
+PRP Height '0.33mm'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Length '0.039inch'
+PRP Manufacturer 'TDK'
+PRP Manufacturer_Part_Number 'CGB2A1X5R1C105K033BC'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-25°C ~ 85°C'
+PRP Package_/_Case '0402'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=0.19, 10=0.133, 100=0.0673, 500=0.04604, 1000=0.04073, 2500=0.03896, 5000=0.03542 (USD)'
+PRP Pricing_2 '1=0.22, 10=0.151, 100=0.0765, 500=0.05232, 1000=0.04629, 2500=0.04428, 5000=0.04025 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Stock_1 '0'
+PRP Stock_2 '6711'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_2 'Digi-Key'
+PRP Supplier_Part_Number_1 '445-13181-1-ND'
+PRP Supplier_Part_Number_2 '445-12012-1-ND'
+PRP Temperature_Coefficient 'JB'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.013inch'
+PRP Thickness_(Max) '0.013_ (0.33mm)'
+PRP Tolerance '10%'
+PRP Voltage_-_Rated '16V'
+PRP Voltage_Rating '16V'
+PRP Voltage_Rating_(DC) '16V'
+PRP Width '0.5mm'
+TOP 0 0.665748 0.44 90 N 35 2 1
+TOP 1 0.6342519 0.44 90 N 34 45 2
+#
+# CMP 38
+CMP 9 0.15 1.603 0 N U2 SN74LV1T34DBVR ;0=1,1=0.0000
+PRP Add_into_BOM 'yes'
+PRP Convert_to_PCB 'yes'
+PRP Datasheet 'https://www.ti.com/cn/lit/gpn/sn74lv1t34'
+PRP Device 'SN74LV1T34DBVR'
+PRP Input_Type '-'
+PRP JLCPCB_Part_Class 'Extended Part'
+PRP LCSC_Part_Name 'SN74LV1T34DBVR'
+PRP Logic_Family '74LV'
+PRP Manufacturer 'TI(????)'
+PRP Manufacturer_Part 'SN74LV1T34DBVR'
+PRP Number_of_Bits_per_Element '1'
+PRP Number_of_Elements '1'
+PRP Operating_Temperature '-40?~+125?'
+PRP Output_Type '??'
+PRP Sink_Current '8mA'
+PRP Source_Current '8mA'
+PRP Supplier 'LCSC'
+PRP Supplier_Footprint 'SOT-23-5'
+PRP Supplier_Part 'C100024'
+PRP Supply_Voltage '1.6V~5.5V'
+PRP Symbol 'SN74LV1T34DBVR'
+TOP 0 0.15 1.603 0 N 0 4 1
+TOP 1 0.187 1.603 0 N 13 0 2
+TOP 2 0.225 1.603 0 N 34 30 3
+TOP 3 0.225 1.705 0 N 20 1 4
+TOP 4 0.15 1.705 0 N 23 13 5
+#
+# CMP 39
+CMP 8 0.62 1.39 270 N U3 IP5305T ;0=1,1=0.0000
+PRP LCSC_Part_No. 'C7433865'
+PRP Manufacturer 'Injoin Technology'
+PRP Mfr._Part_# 'IP5305T-BT'
+TOP 0 0.545 1.2827165 180 N 36 10 1
+TOP 1 0.595 1.2827165 180 N 4 0 2
+TOP 2 0.645 1.2827165 180 N 3 0 3
+TOP 3 0.695 1.2827165 180 N 31 4 4
+TOP 4 0.695 1.4972834 180 N 21 0 5
+TOP 5 0.645 1.4972834 180 N 24 5 6
+TOP 6 0.595 1.4972834 180 N 22 2 7
+TOP 7 0.545 1.4972834 180 N 23 25 8
+TOP 8 0.62 1.39 270 N 34 82 9
+#
+# CMP 40
+CMP 12 0.72 0.285 90 N SW3 Tact_Switch ;0=1,1=0.0591
+PRP LCSC_Part_# 'C720477'
+PRP Manufacturer 'XUNPU'
+TOP 0 0.72 0.3666929 0 N 35 1 1
+TOP 1 0.72 0.2033071 0 N 34 35 2
+#
+# CMP 41
+CMP 12 0.175 0.285 90 N SW1 Tact_Switch ;0=1,1=0.0591
+PRP LCSC_Part_# 'C720477'
+PRP Manufacturer 'XUNPU'
+TOP 0 0.175 0.3666929 0 N 10 1 1
+TOP 1 0.175 0.2033071 0 N 34 36 2
+#
+# CMP 42
+CMP 3 0.155 1.4183334 0 N LED4 Blue ;0=1,1=0.0000
+PRP Color 'Blue'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403110921_XINGLIGHT-XL-1005UBC_C22355736.pdf'
+PRP Current '20mA'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C22355736'
+PRP Voltage '2.7V to 3.3V'
+TOP 0 0.19738 1.4183334 0 N 30 0 1
+TOP 1 0.155 1.4183334 0 N 31 0 2
+#
+# CMP 43
+CMP 3 0.155 1.495 0 N LED2 Blue ;0=1,1=0.0000
+PRP Color 'Blue'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403110921_XINGLIGHT-XL-1005UBC_C22355736.pdf'
+PRP Current '20mA'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C22355736'
+PRP Voltage '2.7V to 3.3V'
+TOP 0 0.19738 1.495 0 N 31 1 1
+TOP 1 0.155 1.495 0 N 30 1 2
+#
+# CMP 44
+CMP 3 0.155 1.3800001 0 N LED5 Blue ;0=1,1=0.0000
+PRP Color 'Blue'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403110921_XINGLIGHT-XL-1005UBC_C22355736.pdf'
+PRP Current '20mA'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C22355736'
+PRP Voltage '2.7V to 3.3V'
+TOP 0 0.19738 1.3800001 0 N 29 0 1
+TOP 1 0.155 1.3800001 0 N 31 2 2
+#
+# CMP 45
+CMP 3 0.155 1.4566667 0 N LED3 Blue ;0=1,1=0.0000
+PRP Color 'Blue'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403110921_XINGLIGHT-XL-1005UBC_C22355736.pdf'
+PRP Current '20mA'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C22355736'
+PRP Voltage '2.7V to 3.3V'
+TOP 0 0.19738 1.4566667 0 N 31 3 1
+TOP 1 0.155 1.4566667 0 N 29 1 2
+#
+# CMP 46
+CMP 2 0.63 1.675 0 N L1 FXL0420-2R2-M ;0=1,1=0.0787
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.lcsc.com/datasheet/lcsc_datasheet_2404260921_cjiang--Changjiang-Microelectronics-Tech-FXL0420-2R2-M_C167206.pdf'
+PRP DCR '58'
+PRP Inductance '2.2uH'
+PRP Irms_MAX '3.8'
+PRP Isat_MAX '4A'
+PRP LCSC_Part_# 'C167206'
+PRP Manufacturer 'cjiang (Changjiang Microelectronics Tech)'
+PRP Mfr._Part_# 'FXL0420-2R2-M'
+TOP 0 0.5591339 1.675 270 N 22 1 1
+TOP 1 0.7008662 1.675 270 N 24 4 2
+#
+# CMP 47
+CMP 13 0.45 0.3 0 N CN1 TYPE-C16PIN ;0=1,1=0.0000
+PRP Add_into_BOM 'yes'
+PRP Connect-Disconnect_Life '10,000 times'
+PRP Connector_Type 'Type-C'
+PRP Convert_to_PCB 'yes'
+PRP Core_Colour 'Black'
+PRP Current_Rating_-_Power_(Max) '3A'
+PRP Datasheet 'https://atta.szlcsc.com/upload/public/pdf/source/20190521/C393939_7B9043D4CF1026AF443AB60D91FBCD5C.pdf'
+PRP Device 'TYPE-C16PIN'
+PRP Gender 'Female'
+PRP JLCPCB_Part_Class 'Extended Part'
+PRP LCSC_Part_Name 'Type-C ? ??'
+PRP Manufacturer 'SHOU HAN(??)'
+PRP Manufacturer_Part 'TYPE-C16PIN'
+PRP Mounting_Style 'Horizontal attachment'
+PRP Number_of_Contacts '16P'
+PRP Number_of_Ports '1'
+PRP Operating_Temperature_Range '-40?~+85?'
+PRP Rated_Voltage_(Max) '30V'
+PRP Standard 'USB 2.0'
+PRP Supplier 'LCSC'
+PRP Supplier_Footprint 'SMD'
+PRP Supplier_Part 'C393939'
+PRP Symbol 'TYPE-C16PIN'
+TOP 0 0.27992 0.37037 0 N 34 13 1
+TOP 1 0.62008 0.37037 0 N 34 14 2
+TOP 2 0.27992 0.20699 0 N 34 15 3
+TOP 3 0.62008 0.20699 0 N 34 16 4
+TOP 4 0.32401 0.39301 0 N 34 18 A1B12
+TOP 5 0.35551 0.39301 0 N 36 5 A4B9
+TOP 6 0.40079 0.39301 0 N 33 0 A5
+TOP 7 0.44016 0.39301 0 N 25 0 A6
+TOP 8 0.45984 0.39301 0 N 26 1 A7
+TOP 9 0.3811 0.39301 0 N 0 0 A8
+TOP 10 0.57598 0.39301 0 N 34 17 B1A12
+TOP 11 0.54449 0.39301 0 N 36 4 B4A9
+TOP 12 0.5189 0.39301 0 N 32 0 B5
+TOP 13 0.47953 0.39301 0 N 25 1 B6
+TOP 14 0.42047 0.39301 0 N 26 0 B7
+TOP 15 0.49921 0.39301 0 N 0 1 B8
+#
+# CMP 48
+CMP 0 0.3507481 0.555 180 N C16 1uF ;0=1,1=0.0276
+PRP Applications 'General Purpose'
+PRP Capacitance '1uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_en.pdf'
+PRP ComponentLink1URL 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_en.pdf'
+PRP ComponentLink2Description 'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink2URL 'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink3Description 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink3URL 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink4Description 'http://www.mouser.com/ds/2/400/lcc_commercial_lowprofile_en-520027.pdf'
+PRP ComponentLink4URL 'http://www.mouser.com/ds/2/400/lcc_commercial_lowprofile_en-520027.pdf'
+PRP Composition 'Ceramic'
+PRP Dielectric 'X5R'
+PRP Failure_Rate '-'
+PRP Features 'Low Profile'
+PRP Height '0.33mm'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Length '0.039inch'
+PRP Manufacturer 'TDK'
+PRP Manufacturer_Part_Number 'CGB2A1X5R1C105K033BC'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-25°C ~ 85°C'
+PRP Package_/_Case '0402'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=0.19, 10=0.133, 100=0.0673, 500=0.04604, 1000=0.04073, 2500=0.03896, 5000=0.03542 (USD)'
+PRP Pricing_2 '1=0.22, 10=0.151, 100=0.0765, 500=0.05232, 1000=0.04629, 2500=0.04428, 5000=0.04025 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Stock_1 '0'
+PRP Stock_2 '6711'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_2 'Digi-Key'
+PRP Supplier_Part_Number_1 '445-13181-1-ND'
+PRP Supplier_Part_Number_2 '445-12012-1-ND'
+PRP Temperature_Coefficient 'JB'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.013inch'
+PRP Thickness_(Max) '0.013_ (0.33mm)'
+PRP Tolerance '10%'
+PRP Voltage_-_Rated '16V'
+PRP Voltage_Rating '16V'
+PRP Voltage_Rating_(DC) '16V'
+PRP Width '0.5mm'
+TOP 0 0.3664961 0.555 90 N 37 7 1
+TOP 1 0.335 0.555 90 N 34 25 2
+#
+# CMP 49
+CMP 0 0.3507481 0.51 180 N C15 1uF ;0=1,1=0.0276
+PRP Applications 'General Purpose'
+PRP Capacitance '1uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_en.pdf'
+PRP ComponentLink1URL 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_en.pdf'
+PRP ComponentLink2Description 'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink2URL 'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink3Description 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink3URL 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink4Description 'http://www.mouser.com/ds/2/400/lcc_commercial_lowprofile_en-520027.pdf'
+PRP ComponentLink4URL 'http://www.mouser.com/ds/2/400/lcc_commercial_lowprofile_en-520027.pdf'
+PRP Composition 'Ceramic'
+PRP Dielectric 'X5R'
+PRP Failure_Rate '-'
+PRP Features 'Low Profile'
+PRP Height '0.33mm'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Length '0.039inch'
+PRP Manufacturer 'TDK'
+PRP Manufacturer_Part_Number 'CGB2A1X5R1C105K033BC'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-25°C ~ 85°C'
+PRP Package_/_Case '0402'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=0.19, 10=0.133, 100=0.0673, 500=0.04604, 1000=0.04073, 2500=0.03896, 5000=0.03542 (USD)'
+PRP Pricing_2 '1=0.22, 10=0.151, 100=0.0765, 500=0.05232, 1000=0.04629, 2500=0.04428, 5000=0.04025 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Stock_1 '0'
+PRP Stock_2 '6711'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_2 'Digi-Key'
+PRP Supplier_Part_Number_1 '445-13181-1-ND'
+PRP Supplier_Part_Number_2 '445-12012-1-ND'
+PRP Temperature_Coefficient 'JB'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.013inch'
+PRP Thickness_(Max) '0.013_ (0.33mm)'
+PRP Tolerance '10%'
+PRP Voltage_-_Rated '16V'
+PRP Voltage_Rating '16V'
+PRP Voltage_Rating_(DC) '16V'
+PRP Width '0.5mm'
+TOP 0 0.3664961 0.51 90 N 37 9 1
+TOP 1 0.335 0.51 90 N 34 46 2
+#
+# CMP 50
+CMP 0 0.650748 0.59 0 N C14 1uF ;0=1,1=0.0276
+PRP Applications 'General Purpose'
+PRP Capacitance '1uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_en.pdf'
+PRP ComponentLink1URL 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_en.pdf'
+PRP ComponentLink2Description 'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink2URL 'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink3Description 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink3URL 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink4Description 'http://www.mouser.com/ds/2/400/lcc_commercial_lowprofile_en-520027.pdf'
+PRP ComponentLink4URL 'http://www.mouser.com/ds/2/400/lcc_commercial_lowprofile_en-520027.pdf'
+PRP Composition 'Ceramic'
+PRP Dielectric 'X5R'
+PRP Failure_Rate '-'
+PRP Features 'Low Profile'
+PRP Height '0.33mm'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Length '0.039inch'
+PRP Manufacturer 'TDK'
+PRP Manufacturer_Part_Number 'CGB2A1X5R1C105K033BC'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-25°C ~ 85°C'
+PRP Package_/_Case '0402'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=0.19, 10=0.133, 100=0.0673, 500=0.04604, 1000=0.04073, 2500=0.03896, 5000=0.03542 (USD)'
+PRP Pricing_2 '1=0.22, 10=0.151, 100=0.0765, 500=0.05232, 1000=0.04629, 2500=0.04428, 5000=0.04025 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Stock_1 '0'
+PRP Stock_2 '6711'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_2 'Digi-Key'
+PRP Supplier_Part_Number_1 '445-13181-1-ND'
+PRP Supplier_Part_Number_2 '445-12012-1-ND'
+PRP Temperature_Coefficient 'JB'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.013inch'
+PRP Thickness_(Max) '0.013_ (0.33mm)'
+PRP Tolerance '10%'
+PRP Voltage_-_Rated '16V'
+PRP Voltage_Rating '16V'
+PRP Voltage_Rating_(DC) '16V'
+PRP Width '0.5mm'
+TOP 0 0.635 0.59 270 N 23 10 1
+TOP 1 0.6664961 0.59 270 N 34 27 2
+#
+# CMP 51
+CMP 0 0.650748 0.545 0 N C13 1uF ;0=1,1=0.0276
+PRP Applications 'General Purpose'
+PRP Capacitance '1uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_en.pdf'
+PRP ComponentLink1URL 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_en.pdf'
+PRP ComponentLink2Description 'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink2URL 'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink3Description 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink3URL 'http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf'
+PRP ComponentLink4Description 'http://www.mouser.com/ds/2/400/lcc_commercial_lowprofile_en-520027.pdf'
+PRP ComponentLink4URL 'http://www.mouser.com/ds/2/400/lcc_commercial_lowprofile_en-520027.pdf'
+PRP Composition 'Ceramic'
+PRP Dielectric 'X5R'
+PRP Failure_Rate '-'
+PRP Features 'Low Profile'
+PRP Height '0.33mm'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Length '0.039inch'
+PRP Manufacturer 'TDK'
+PRP Manufacturer_Part_Number 'CGB2A1X5R1C105K033BC'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-25°C ~ 85°C'
+PRP Package_/_Case '0402'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=0.19, 10=0.133, 100=0.0673, 500=0.04604, 1000=0.04073, 2500=0.03896, 5000=0.03542 (USD)'
+PRP Pricing_2 '1=0.22, 10=0.151, 100=0.0765, 500=0.05232, 1000=0.04629, 2500=0.04428, 5000=0.04025 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Stock_1 '0'
+PRP Stock_2 '6711'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_2 'Digi-Key'
+PRP Supplier_Part_Number_1 '445-13181-1-ND'
+PRP Supplier_Part_Number_2 '445-12012-1-ND'
+PRP Temperature_Coefficient 'JB'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.013inch'
+PRP Thickness_(Max) '0.013_ (0.33mm)'
+PRP Tolerance '10%'
+PRP Voltage_-_Rated '16V'
+PRP Voltage_Rating '16V'
+PRP Voltage_Rating_(DC) '16V'
+PRP Width '0.5mm'
+TOP 0 0.635 0.545 270 N 23 11 1
+TOP 1 0.6664961 0.545 270 N 34 28 2
+#
+# CMP 52
+CMP 1 0.745 1.53 90 N C11 22uF ;0=1,1=0.0394
+PRP Applications 'General Purpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP ClassName ''
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R61A226ME15D'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0603'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Pricing_1 '4000=0.00414, 8000=0.00378, 12000=0.0036, 28000=0.00342, 100000=0.00248 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ L x 0.031_ W (1.60mm x 0.80mm)'
+PRP Stock_1 '2360000'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C84419'
+PRP Temperature_Coefficient 'XR5'
+PRP Thickness_(Max) '0.034_ (0.87mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 0.7450001 1.557559 0 N 24 3 1
+TOP 1 0.7450001 1.5024409 0 N 34 43 2
+#
+# CMP 53
+CMP 1 0.405 1.3268504 270 N C10 22uF ;0=1,1=0.0394
+PRP Applications 'General Purpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP ClassName ''
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R61A226ME15D'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0603'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Pricing_1 '4000=0.00414, 8000=0.00378, 12000=0.0036, 28000=0.00342, 100000=0.00248 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ L x 0.031_ W (1.60mm x 0.80mm)'
+PRP Stock_1 '2360000'
+PRP Supplier_1 'LCSC'
+PRP Supplier_Part_Number_1 'C84419'
+PRP Temperature_Coefficient 'XR5'
+PRP Thickness_(Max) '0.034_ (0.87mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 0.4049999 1.2992914 180 N 36 8 1
+TOP 1 0.4049999 1.3544095 180 N 34 38 2
+#
+# CMP 54
+CMP 0 0.345 1.515 90 N C9 0.1uF ;0=1,1=0.0276
+PRP Applications 'SMPS Filtering'
+PRP Category 'Capacitors'
+PRP ComponentLink1Description 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP ComponentLink1URL 'https://www.atceramics.com/UserFiles/530l.pdf'
+PRP Failure_Rate '-'
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'American Technical Ceramics'
+PRP Manufacturer_Part_Number '530L104KT16T'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Notification 'Current market demand for these product types have resulted in fluctuating and extending lead times. Lead times may differ.'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Pricing_1 '1=1.23, 10=0.975, 100=0.731 (USD)'
+PRP Ratings '-'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.040_ L x 0.020_ W (1.02mm x 0.51mm)'
+PRP Stock_1 '201522'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '1284-1591-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.024_ (0.61mm)'
+PRP Tolerance '±10%'
+PRP Voltage_-_Rated '16V'
+TOP 0 0.345 1.530748 0 N 23 16 1
+TOP 1 0.345 1.4992519 0 N 34 40 2
+#

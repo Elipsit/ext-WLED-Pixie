@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: WLED_Pixie_Rev_A.PcbDoc   9/30/2024  9:51:11 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : WLED_Pixie_Rev_A-RoundHoles.TXT
+ASCII SlotHoles File : WLED_Pixie_Rev_A-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.203mm)          +/-3mil (0.076mm)                 Round             87        PTH        8.12inch (206.12mm)
+T2      8mil (0.203mm)                                            Round             25        PTH        3.33inch (84.62mm)
+T3      24mil (0.6mm)                                             Slot              4         PTH        1.50inch (38.05mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              116
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,132 @@
+*************************************************************
+FileName = WLED_Pixie_Rev_A.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\profile
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\stephdr
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\dielectric_1\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\dielectric_1\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\core\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\core\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\dielectric_2\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\dielectric_2\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\gnd\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\gnd\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mid_layer_2\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mid_layer_2\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_type_1a_bottom\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_type_1a_bottom\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_type_1a_bottom\tools
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\bottom_layer\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\bottom_layer\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mechanical_1\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mechanical_1\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mechanical_6\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mechanical_6\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_drawing_type_1a_bottom\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_drawing_type_1a_bottom\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mechanical_8\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mechanical_8\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_guide_type_1a_bottom\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_guide_type_1a_bottom\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mechanical_13\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mechanical_13\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_guide_top_layer-bottom_layer\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_guide_top_layer-bottom_layer\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_drawing_top_layer-bottom_layer\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\drill_drawing_top_layer-bottom_layer\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mechanical_15\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\mechanical_15\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\top_layer\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\top_layer\attrlist
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\rout\features
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\layers\rout\tools
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\steps\pcb\eda\data
+
+Generated File : C:\github\WLED_Pixie\WLED_Pixie_Rev_A\Project Outputs for WLED_Pixie_Rev_A\ODB\odb\matrix\matrix
+

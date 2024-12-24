@@ -1,0 +1,404 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+        h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+            padding: 0.3em;
+        }
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+        body {
+			font-family : segoe ui;
+        }
+
+        td, th {
+            padding: 0.5em;
+			text-align : left;
+			width: 10em;
+        }
+        th {
+			background-color : #EEEEEE;
+
+        }
+        th.column1, td.column1 {
+            text-align: left;
+            width : auto;
+        }
+        table {
+            width : 100%;
+			font-size: 0.9em;
+        }
+        
+        .DRC_summary_header {                           
+            padding-bottom : 0.1em;
+            border : 0px solid black;                           
+            width: 100%;
+			align: left;
+        }
+
+        .DRC_summary_header_col1, 
+        .DRC_summary_header_col2, 
+        .DRC_summary_header_col3  {
+            color : black;
+            font-size:100%;
+                        padding : 0em;
+            padding-top : 0.2em;
+            padding-bottom 0.2em;
+            border : 0px solid black;
+            vertical-align: top;
+			text-align: left;
+        }
+        
+        .DRC_summary_header_col1 {                              
+			font-weight: bold;
+			width: 8em;
+        }
+
+        .DRC_summary_header_col2 {       
+			width: 0.1em;
+		
+        }
+
+        .DRC_summary_header_col3 {       
+			width : auto;
+        }
+
+        .header_holder  {
+        Width = 100%;
+        border = 0px solid green;
+        padding = 0;
+        }
+        
+        
+        .front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+            left:0;
+            top:0;
+			padding: 0em;
+            padding-top : 0.1em;            
+            border : 0px solid black;
+            width : 100%;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .front_matter_column1 {
+            width : 8em;   
+			font-weight: bold;
+        }
+        
+        .front_matter_column2 {
+            width: 0.1em;
+        }
+
+        .front_matter_column3 {
+            width         : auto;  
+        }
+        
+        .total_column1, .total_column {
+            font-weight : bold;
+        }
+        .total_column1 {
+			text-align : left;
+        }
+        .warning, .error {
+            color : red;
+            font-weight : bold;
+        }
+        tr.onmouseout_odd {
+			background-color : #white;
+        }
+        tr.onmouseout_even { 
+			background-color : #FAFAFA;
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #21489e; 
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));     
+                    coordNode.appendChild(textNode);    
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);       
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+        "><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">9/30/2024</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">9:51:15 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc" class="file"><acronym title="C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc">C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">22</td></tr>
+</table>
+</td>
+</table><a name="IDQWWFKPNYC5MFETDEJGALU1NNJGFP5SW3HNKHR1HYL1XXRVYHVSZE"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTPVI0XEZVEI3KSP2OMKTYNSLQOWXNSJX5ROCY4JVER3FP04OV0KH">Clearance Constraint (Gap=4mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBIKSJCLHZC5QHFMSG1L3IIYAHNDSUXQNWVFW45NTM53HWYKXXDIN">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID52A5VGLGPXMZF30GQDJIMZWKAGO40ZSCWVM0NQBMPJ2FG0EA3YJF">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDG0SJY2LS1NXEN20BJKRO1PJP2PBCWIFOCKTN4FHFK4IIVHINOU5B">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3GSZLSDGDRPHP0QJCHMJC1BCGEDJSCITZK4KSPHAOAIW3T2SYJ0K">Width Constraint (Min=4mil) (Max=71497.938mil) (Preferred=4mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOHP1TWX5DY20EBKW5ZMXLGVKGBBQBOEFLPIRS2FR1MZHEURR5ZDD">Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=4mil) (Air Gap=4mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZFADRA2IVC3LDAG2WOU4DSC3YOUDOPWJZKVPX3C2LCGFFL3PT1B">Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPLPP2I05K3UKG3IULCWEHVWSWGDJFDS0OGRMWWJBD5ANVFQJHVYG">Minimum Annular Ring (Minimum=3mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFUXHBLYSMBGQEMEOYZKKSHVA3NVSUPPT0SGS5NFODWQFEJ1R3TVM">Hole Size Constraint (Min=7.874mil) (Max=248.031mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1RI2IWCPKAFSO12TYMBO13J0GXGJT5XR2CENEEC213CMYRZGADJ">Hole To Hole Clearance (Gap=9.842mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGWENEVFGWC34MVLU41214PSH2PMZGIYNQGEBOMLOL3QZ3ER1AAXI">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDB4A3VXAYBKEWKLUZFQF5Z5TTUIU5UAXHM2P4CXLMJDZNQFUW2EOJ">Silk To Solder Mask (Clearance=4mil) (IsPad),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4S0G5M3XMFOVNNQDHC2KSZTMPIVDG2NHQGXWR0JC20LRD0URLKPG">Silk to Silk (Clearance=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUELC3IFGAVKHDRNIKFWN11PCRMZ1DRYPV1FRD0EOHTRCUHQK5BP">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3M53K3C5TWQTFCXSS45JFCR5HNU45EBLBPO55WO1FWMYPN13JFXL">Board Clearance Constraint (Gap=0mil) (All)</a></td>
+<td class="column2">20</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJO2F2CAQ5BL1GTTZGSETV0XWUO05PZQC3YIAFBJS224BDDFNKO4F">Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">22</td>
+</tr>
+</table><br><a name="IDB4A3VXAYBKEWKLUZFQF5Z5TTUIU5UAXHM2P4CXLMJDZNQFUW2EOJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=4mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7176.627mil|Location2.X=7181.877mil|Location1.Y=7476.784mil|Location2.Y=7482.034mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7176.627mil|Location2.X=7181.877mil|Location1.Y=7476.784mil|Location2.Y=7482.034mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.937mil &lt; 4mil) Between Pad D1-2(730mil,450.945mil) on Top Layer And Track (696.535mil,490.315mil)(763.465mil,490.315mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.937mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6846.784mil|Location2.X=6852.034mil|Location1.Y=8391.627mil|Location2.Y=8396.877mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6846.784mil|Location2.X=6852.034mil|Location1.Y=8391.627mil|Location2.Y=8396.877mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.937mil &lt; 4mil) Between Pad D2-2(350.945mil,1415mil) on Top Layer And Track (390.315mil,1381.535mil)(390.315mil,1448.465mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.937mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID3M53K3C5TWQTFCXSS45JFCR5HNU45EBLBPO55WO1FWMYPN13JFXL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6576.167mil|Location2.X=6583.833mil|Location1.Y=7997.623mil|Location2.Y=8005.29mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6576.167mil|Location2.X=6583.833mil|Location1.Y=7997.623mil|Location2.Y=8005.29mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Track (115mil,160mil)(115mil,1852.913mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6910.812mil|Location2.X=6918.479mil|Location1.Y=7151.167mil|Location2.Y=7158.833mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6910.812mil|Location2.X=6918.479mil|Location1.Y=7151.167mil|Location2.Y=7158.833mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Track (115mil,160mil)(784.291mil,160mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6910.812mil|Location2.X=6918.479mil|Location1.Y=8844.08mil|Location2.Y=8851.747mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6910.812mil|Location2.X=6918.479mil|Location1.Y=8844.08mil|Location2.Y=8851.747mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Track (115mil,1852.913mil)(784.291mil,1852.913mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6575.492mil|Location2.X=6583.159mil|Location1.Y=7276.167mil|Location2.Y=7283.833mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6575.492mil|Location2.X=6583.159mil|Location1.Y=7276.167mil|Location2.Y=7283.833mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Track (117.913mil,206.26mil)(117.913mil,363.74mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6575.492mil|Location2.X=6583.159mil|Location1.Y=7197.426mil|Location2.Y=7205.093mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6575.492mil|Location2.X=6583.159mil|Location1.Y=7197.426mil|Location2.Y=7205.093mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Track (117.913mil,206.26mil)(122.835mil,206.26mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6575.492mil|Location2.X=6583.159mil|Location1.Y=7354.907mil|Location2.Y=7362.573mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6575.492mil|Location2.X=6583.159mil|Location1.Y=7354.907mil|Location2.Y=7362.573mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Track (117.913mil,363.74mil)(122.835mil,363.74mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6603.976mil|Location2.X=6615.226mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6603.976mil|Location2.X=6615.226mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True">Board Outline Clearance(Outline Edge): (5.137mil &lt; 10mil) Between Board Edge And Track (144.601mil,1705mil)(144.601mil,1842.777mil) on Bottom Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6603.976mil|Location2.X=6615.226mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6603.976mil|Location2.X=6615.226mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True">Board Outline Clearance(Outline Edge): (5.137mil &lt; 10mil) Between Board Edge And Track (144.601mil,1842.777mil)(417.436mil,1842.777mil) on Bottom Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6735.971mil|Location2.X=6743.637mil|Location1.Y=7120.036mil|Location2.Y=7127.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6735.971mil|Location2.X=6743.637mil|Location1.Y=7120.036mil|Location2.Y=7127.703mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Track (274.804mil,103.151mil)(274.804mil,162.917mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6911.167mil|Location2.X=6918.834mil|Location1.Y=7094.318mil|Location2.Y=7101.984mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6911.167mil|Location2.X=6918.834mil|Location1.Y=7094.318mil|Location2.Y=7101.984mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Track (274.804mil,103.151mil)(625.197mil,103.151mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6876.811mil|Location2.X=6888.061mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6876.811mil|Location2.X=6888.061mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True">Board Outline Clearance(Outline Edge): (5.137mil &lt; 10mil) Between Board Edge And Track (417.436mil,1705mil)(417.436mil,1842.777mil) on Bottom Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6928.976mil|Location2.X=6940.226mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6928.976mil|Location2.X=6940.226mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True">Board Outline Clearance(Outline Edge): (5.137mil &lt; 10mil) Between Board Edge And Track (469.601mil,1705mil)(469.601mil,1842.777mil) on Bottom Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6928.976mil|Location2.X=6940.226mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6928.976mil|Location2.X=6940.226mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True">Board Outline Clearance(Outline Edge): (5.137mil &lt; 10mil) Between Board Edge And Track (469.601mil,1842.777mil)(742.436mil,1842.777mil) on Bottom Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7086.364mil|Location2.X=7094.03mil|Location1.Y=7120.036mil|Location2.Y=7127.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7086.364mil|Location2.X=7094.03mil|Location1.Y=7120.036mil|Location2.Y=7127.703mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Track (625.197mil,103.151mil)(625.197mil,162.917mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7201.811mil|Location2.X=7213.061mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7201.811mil|Location2.X=7213.061mil|Location1.Y=8839.72mil|Location2.Y=8850.97mil|Absolute=True">Board Outline Clearance(Outline Edge): (5.137mil &lt; 10mil) Between Board Edge And Track (742.436mil,1705mil)(742.436mil,1842.777mil) on Bottom Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7239.277mil|Location2.X=7250.527mil|Location1.Y=8551.855mil|Location2.Y=8563.105mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7239.277mil|Location2.X=7250.527mil|Location1.Y=8551.855mil|Location2.Y=8563.105mil|Absolute=True">Board Outline Clearance(Outline Edge): (8.78mil &lt; 10mil) Between Board Edge And Track (771.575mil,1530mil)(771.575mil,1562.48mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7242.033mil|Location2.X=7253.283mil|Location1.Y=7195.635mil|Location2.Y=7206.885mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7242.033mil|Location2.X=7253.283mil|Location1.Y=7195.635mil|Location2.Y=7206.885mil|Absolute=True">Board Outline Clearance(Outline Edge): (3.268mil &lt; 10mil) Between Board Edge And Track (772.165mil,206.26mil)(777.087mil,206.26mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7242.033mil|Location2.X=7253.283mil|Location1.Y=7353.115mil|Location2.Y=7364.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7242.033mil|Location2.X=7253.283mil|Location1.Y=7353.115mil|Location2.Y=7364.365mil|Absolute=True">Board Outline Clearance(Outline Edge): (3.268mil &lt; 10mil) Between Board Edge And Track (772.165mil,363.74mil)(777.087mil,363.74mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7242.033mil|Location2.X=7253.283mil|Location1.Y=7195.635mil|Location2.Y=7206.885mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7242.033mil|Location2.X=7253.283mil|Location1.Y=7195.635mil|Location2.Y=7206.885mil|Absolute=True">Board Outline Clearance(Outline Edge): (3.268mil &lt; 10mil) Between Board Edge And Track (777.087mil,206.26mil)(777.087mil,363.74mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7245.458mil|Location2.X=7253.125mil|Location1.Y=7997.623mil|Location2.Y=8005.29mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\github\WLED_Pixie\WLED_Pixie_Rev_A\WLED_Pixie_Rev_A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7245.458mil|Location2.X=7253.125mil|Location1.Y=7997.623mil|Location2.Y=8005.29mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Track (784.291mil,160mil)(784.291mil,1852.913mil) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
