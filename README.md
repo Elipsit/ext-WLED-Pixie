@@ -6,8 +6,8 @@
 
 ### Description
 
-Turning Disposable Vape Batteries into WLED Projects
 I've always been fascinated by LEDs. Learning how to control them was one of the reasons I became an Electrical Engineer. So when a friend introduced me to WLED and showed how easy it was to get a project running, I was amazed.
+
 For as long as I can remember, personal electronics projects have often been limited by the available power sources. AA batteries are bulky, and lithium-ion batteries, while effective, are expensive and come with shipping restrictions. However, with the rise of disposable vaporizers, I saw an opportunity: repurposing their small but powerful lithium-ion batteries for personal projects.
 
 My goal for this project was to design a WLED-compatible board in the form factor of an common 801640 LiPo disposable vape battery. This would allow the PCB to stack neatly on top of the battery and fit into a simple 3D-printed enclosure. I used the ESP32-C3 module with an IPEX-3 connector to minimize the PCB footprint and to enable the use of an external flex antenna for improved Wi-Fi range. To support two outputs for WS2812 Neopixels, I included two 3V3-to-5V level shifters.
@@ -24,7 +24,6 @@ This project combines my love for LEDs with my commitment to sustainability, off
 - [Schematic](#Schematic)
 - [WLED](#WLED)
 - [Bringup](#Bringup)
-- [Contact](#Contact)
 
 
 ---
@@ -77,8 +76,3 @@ The MCO was designed to be the same size as a standard disposable vape battery
 
 ---
 
-## Contact
-
-Feel free to reach out if you have any questions:
-
-- Email: rodrig.ky@gmail.com
