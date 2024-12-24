@@ -37,7 +37,7 @@ This project combines my love for LEDs with my commitment to sustainability, off
 
 ## Schematic
 The latest schematic can be found here
-[Schematic](/ext-WLED-Pixie/blob/main/PDF/WLED_Pixie_Rev_A-2024-10-12.PDF)
+[Schematic](/PDF/WLED_Pixie_Rev_A-2024-10-12.PDF)
 
 ---
 
@@ -52,26 +52,26 @@ https://install.wled.me/
 The boards were manufactured by JLCPCB. Due to the pitch of the ESP32 module the project required xray instection service.
 
 
-![DFM Xrays](/ext-WLED-Pixie/blob/main/Pics/7-WLED_Pixie_RevA_Xray.jpg)
+![DFM Xrays](/Pics/7-WLED_Pixie_RevA_Xray.jpg)
 *The xrays view of the board was kinda interesting to see*
 
 The boards were manufactured in a 1-up configuration and returned with the tabs intact
 
-![Panel View](/ext-WLED-Pixie/blob/main/Pics/1-panel_view.jpeg)
+![Panel View](/Pics/1-panel_view.jpeg)
 *1-up PCBs recieved from JLCPCB*
 
 The MCO was designed to be the same size as a standard disposable vape battery
 
-![Top_Stacked](/ext-WLED-Pixie/blob/main/Pics/3-top_stacked.jpeg)
+![Top_Stacked](/Pics/3-top_stacked.jpeg)
 *Pixie board stacked*
 
-![Side-by-side](/ext-WLED-Pixie/blob/main/Pics/4-botton-sidebyside.jpeg)
+![Side-by-side](/Pics/4-botton-sidebyside.jpeg)
 *Pixie board next to battery*
 
-![Module-with-antenna](/ext-WLED-Pixie/blob/main/Pics/5-module-antenna.jpeg)
+![Module-with-antenna](/Pics/5-module-antenna.jpeg)
 *Pixie board w/antenna*
 
-![Module-with-antenna](/ext-WLED-Pixie/blob/main/Pics/8-enclosure.jpg)
+![Module-with-antenna](/Pics/8-enclosure.jpg)
 *Packaged in an enclousure*
 
 
