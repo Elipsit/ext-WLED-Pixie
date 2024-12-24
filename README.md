@@ -20,7 +20,7 @@ This project combines my love for LEDs with my commitment to sustainability, off
 ---
 
 ## Table of Contents
-- [Features](#features)
+- [Description](#Description)
 - [Schematic](#Schematic)
 - [WLED](#WLED)
 - [Bringup](#Bringup)
