@@ -1,7 +1,7 @@
 # WLED Pixie - Rev A
  A Small Form factor ESP32-C3 with an integrated battery charger & 5V boost, running WLED 
  
-![Demo](/ext-WLED-Pixie/blob/main/Pics/6-Test_Setup.JPG)
+![Demo](/Pics/6-Test_Setup.JPG)
 *Pixie Board running WLED w/WS2812C Fairy LEDs*
 
 ### Description
