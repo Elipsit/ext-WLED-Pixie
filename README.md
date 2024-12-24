@@ -36,7 +36,7 @@ This project combines my love for LEDs with my commitment to sustainability, off
 
 ## Schematic
 The latest schematic can be found here
-[Schematic](/PDF/WLED_Pixie_Rev_A-2024-10-12.PDF)
+[Schematic](/WLED_Pixie_Rev_A/Project%20Outputs%20for%20WLED_Pixie_Rev_A/PDF/WLED_Pixie_Rev_A-2024-10-12.PDF)
 
 ---
 
